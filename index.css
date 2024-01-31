@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 375px;
+    width: 300px;
     border-radius: 15px;
     /* height: 500px; */
     padding:15px;
@@ -24,12 +24,12 @@ body{
     border-radius: 10px;
   }
   h1{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 24px;
   }
   p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin: 0;
     margin-bottom: 20px;
   }
