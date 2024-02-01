@@ -1,17 +1,22 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body{
-    padding: 0;
-    margin: 0;
-    background-color: lightblue;
+    padding: 1rem;
+    background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.container{
-    width: 300px;
+main{
+    max-width: 20rem;
     border-radius: 15px;
-    /* height: 500px; */
     padding:15px;
     background-color: hsl(0, 0%, 100%);
     display:flex;
@@ -22,6 +27,7 @@ body{
   img {
     max-width: 100%;
     border-radius: 10px;
+    display: block;
   }
   h1{
     font-size: 1.5rem;
@@ -30,6 +36,5 @@ body{
   }
   p{
     font-size: 1.1rem;
-    margin: 0;
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
